@@ -1,0 +1,34 @@
+# ── Data files ──────────────────────────────────────────────────────────────
+# Raw datasets — keep off GitHub (size + sensitivity)
+*.csv
+submission.csv
+
+# ── Trained model ────────────────────────────────────────────────────────────
+# Serialised model artifact — large binary, rebuild from training script
+*.joblib
+*.pkl
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environment ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Jupyter / IPython ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS clutter ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
